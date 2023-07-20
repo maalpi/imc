@@ -168,7 +168,7 @@ function dialogo (var1,var2){
                 textLabel('0',left + 7,yCoor + 25,20,'top','left');
                 textLabel('40',right , yCoor + 25,20,'top','right');
                 textLabel(score,xCoor,yCoor,50,'bottom','center');
-                textLabel(rating,xCoor,yCoor - 60,20,'bottom','center');
+                textLabel(rating,xCoor,yCoor - 60,15,'bottom','center');
             }
             else{
                 textLabel('0',left + 15,yCoor + 15 ,20,'top','left');
