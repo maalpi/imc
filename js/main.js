@@ -157,11 +157,6 @@ function dialogo (var1,var2){
                 ctx.fillText(text,x,y);
             }
 
-            // textLabel('0',left + 7,yCoor + 25,20,'top','left');
-            // textLabel('40',right , yCoor + 25,20,'top','right');
-            // textLabel(score,xCoor,yCoor,80,'bottom','center');
-            // textLabel(rating,xCoor,yCoor - 80,25,'bottom','center');
-
             var largura = window.innerWidth
             || document.documentElement.clientWidth
             || document.body.clientWidth;
@@ -179,7 +174,7 @@ function dialogo (var1,var2){
                 textLabel('0',left + 15,yCoor + 15 ,20,'top','left');
                 textLabel('40',right -10, yCoor +15,20,'top','right');
                 textLabel(score,xCoor,yCoor,80,'bottom','center');
-                textLabel(rating,xCoor,yCoor - 80,25,'bottom','center');
+                textLabel(rating,xCoor,yCoor - 80,20,'bottom','center');
             }
             
         }
