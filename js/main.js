@@ -263,7 +263,7 @@ function text_resultado(imc){
     }
     else{
         const p = criarP();
-        p.classList.add('paragrafo-resultado-red');
+        p.classList.add('paragrafo-resultado-vermelho');
         p.innerHTML = `Você esta muito acima do peso procure ajuda medica imediatamente.`;
         div_resultado.appendChild(p);
     }
