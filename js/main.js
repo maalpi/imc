@@ -22,8 +22,13 @@ function retornar_imc(calculo){
 function Calcular_IMC(){
     const form = document.querySelector('#form');
        
-    const peso = parseFloat(form.querySelector('.peso').value);
-    const altura = parseFloat(form.querySelector('.altura').value);
+    var peso = form.querySelector('.peso').value;
+    peso = peso.replace(",",".");
+    peso = parseFloat(peso);
+
+    var altura = form.querySelector('.altura').value;
+    altura = altura.replace(",",".");
+    altura = parseFloat(altura);
        
     let imc = peso/(altura*altura);
     return imc;
